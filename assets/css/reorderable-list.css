@@ -1,0 +1,80 @@
+.reorderable-list {
+
+	list-style: none;
+	max-width: 300px;
+	margin: 30px;
+	display: inline-block;
+	
+}
+
+.reorderable-list li {
+	
+	width: 300px;
+	height: 40px;	
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc; 
+	margin-bottom: 10px;	
+}
+
+.li-text {
+	position: relative;
+}
+.li-text {
+	bottom: 15px;
+	font-size: 14px;
+	color: #424242
+}
+
+.li-image { 
+	width: 20px;
+	height: 20px; 
+	margin: 0px;
+	padding: 10px;
+}
+
+.li-button-grp {
+	float: right;
+	padding-top: 10px;
+}
+
+.li-button-up-image { 
+	width: 12px;
+	height: 12px; 
+	padding-left: 5px;  
+}
+
+li:nth-child(1) .li-button-up-image {
+	display: none;
+}
+
+.li-button-up-image:hover {
+	 cursor:pointer
+}
+
+.li-button-down-image { 
+	width: 12px;
+	height: 12px; 
+	padding-left: 5px;  
+}
+
+li:nth-last-child(1) .li-button-down-image {
+	display: none;
+}
+
+.li-button-down-image:hover {
+	cursor:pointer
+}
+
+.li-button-remove-image { 
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+	padding-left: 5px;   
+	padding-right: 5px; 
+
+}
+
+.li-button-remove-image:hover {
+	cursor:pointer
+}
